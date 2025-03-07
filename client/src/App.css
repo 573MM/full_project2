@@ -1,0 +1,63 @@
+/* .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/* .container {
+    display: grid;
+   
+    grid-template-areas:
+      "navbar"
+      "slider"
+      "item";
+  }
+  
+  .navbar {
+    grid-area: navbar;
+    
+  }
+  
+  .slider-container {
+    grid-area: slider;
+  }
+  
+  .item {
+    grid-area: item;
+    place-self: center;
+  }
+
+     */
+     .container {
+      width: 100vw;
+      height: 100vh;
+      /*background-color: #f0f8ff;*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* width: 100vw;
+      height: 100vh;
+      background-color: #f0f8ff; */
+      /*display: grid;
+      grid-template-columns: 1fr; /* กำหนดให้มีแค่ column เดียว */
+      /*grid-template-rows: auto auto 1fr; /* Navbar, Slider, Item */
+    }
+    
+    .navbar {
+      grid-row: 1; /* ตำแหน่ง Navbar */
+    }
+    
+    .slider-container {
+      grid-row: 2; /* ตำแหน่ง Slider */
+    }
+    
+    /* .item {
+      grid-row: 3; 
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+    } */
+    

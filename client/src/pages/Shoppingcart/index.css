@@ -1,0 +1,7 @@
+.container_product2 {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    place-self: center;
+}

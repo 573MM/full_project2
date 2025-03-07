@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* ให้ body มีความสูงเท่ากับ viewport height เพื่อให้เนื้อหาอยู่ตรงกลาง */
+    margin: 0; /* ลบ margin ที่อาจมีอยู่ */
+}
+
+.container_product{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    /*flex-direction: column;*/
+}
+.container_product img{
+    margin-right: 50px;
+    width: 623px;
+    height: 442px;
+    object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+    object-position: center center;
+}
+.Item_name{
+    font-size: 36px;
+    font-weight: bold;
+}
+.price{
+    font-size: 30px;
+}
+button[class="buy_now"]{
+        padding: 10px;
+        border-radius: 4px;
+        margin: 10px 0px 0px 10px;
+        background: rgb(32, 135, 32);
+        color: white;
+        font-weight: bold;
+    }
+button[class="add_to_cart"]{
+    padding:  10px 20px 10px 20px;
+    border-radius: 4px;
+    margin: 10px 0px 0px 10px;
+    background: rgb(255,127,80);
+    color: white;
+    font-weight: bold;
+}
+
+.quantity {
+display: flex;
+align-items: center;
+}
+
+.quantity-btn {
+background-color: #e0e0e0;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+}
